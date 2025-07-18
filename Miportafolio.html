@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi Portafolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+        <link rel="icon" href="Fotoperfilvro.png">
+    </head>
+    <style>
+
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        body {
+            font-family: 'Inder', sans-serif;
+            background-color: whitesmoke;
+        }
+
+        input {
+            width: 10%;
+        }
+
+        :root {
+            --fuentes: 'Orbitron', sans-serif;
+            --grande: 5rem;
+            --mediano: 2.5rem;
+            --pequeño: 1rem
+        }
+
+        h1 {
+            font-size: var(--grande);
+            font-family: 'Nunito', sans-serif;
+            padding: 1.8rem;
+            padding-bottom: 2.4rem;
+        }
+
+        h2 {
+            font-size: var(--mediano);
+            font-family: 'Nunito', sans-serif;
+            padding: 1.8rem;
+        }
+
+        h3 {
+            padding: .5rem;
+        }
+
+        header {
+            background-color: rgb(194, 194, 194);
+            color: rgb(10, 10, 10);
+            padding: 1rem;
+            text-align: center;
+            padding-bottom: 1.5rem;
+        }
+
+        header p {
+            margin-bottom: 1.8rem;
+            margin-top: .2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(24, 24, 24);
+        }
+
+        section {
+            text-align: center;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        footer {
+            background-color: rgb(194, 194, 194);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer p {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: rgb(66, 58, 48);
+        }
+
+        footer a:hover {
+            font-size: larger;
+            transition: 1s ease;
+        }
+
+        section a {
+            text-decoration: none;
+            color: rgb(10, 10, 10);
+            font-family: 'Orbitron';
+        }
+
+        section a:hover {
+            text-decoration: underline;
+            color: rgb(0, 219, 154);
+            transition: 1.5s ease;
+        }
+
+        img {
+            width: 30%;
+        }
+
+        section p {
+            padding: .8rem;
+        }
+
+        section {
+            border-left: 0.5rem solid rgb(194, 194, 194);
+            border-right: 0.5rem solid rgb(194, 194, 194);
+            margin-left: 5rem;
+            margin-right: 5rem;
+            border-radius: 16px;
+            padding: 1rem;
+        }
+        section ul {
+            list-style: none;
+        }
+
+        section li {
+            font-weight: bold;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            } 
+            
+            nav ul {
+                list-style: none;
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                margin: 20px 0;
+                font-weight: bold;
+                font-size: 1rem;
+            }
+
+            section {
+                margin: 1rem;
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+
+    </style>
+    <body>
+        <header>
+            <h1>MI PORTAFOLIO</h1>
+            <p>Mi nombre es Dámaso Figueredo, y este es mi Portafolio, verá en que me especializo, las Empresas que manejo, experiencias y habilidades.</p>
+            <nav>
+                <ul>
+                    <li><a href="#em">EMPRESA</a></li>
+                    <li><a href="#ex">EXPERIENCIA</a></li>
+                    <li><a href="#pr">PROYECTOS</a></li>
+                    <li><a href="#ha">HABILIDADES</a></li>
+                    <li><a href="#in">INFORMACIÓN DE CONTACTO</a></li>
+                    <li><a href="#bio">BIOGRAFÍA</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <aside>
+                    <h2>INTRODUCCIÓN</h2>
+                    <p>Bienvenido a mi portafolio, aquí verá más información sobre mí y lo que necesita saber si necesita que le trabaje en algo</p>
+                </aside>
+            </section>
+            <section>
+                <h2 id="em">EMPRESA</h2>
+                <a href="https://damasofc09.github.io/SPD/index.html"><img src="SDP3.jpg" alt="Logo de la empreza"></a>
+                <h3><a href="https://damasofc09.github.io/SPD/index.html" target="_blank">SPD: Servicio de Programación y Diseño</a></h3>
+                <p>Esta empresa está dedicada principalmente a la programación donde se encuentra programación como:</p>
+                <ul>
+                    <li>- Desarrollo Web</li>
+                    <li>- Ciberseguridad</li>
+                    <li>- Desarrollo de APPS móviles</li>
+                    <li>- Desarrolo de VideoJuegos</li>
+                </ul>
+                <p>Y también preo como rama secundaria el diseño donde se ofrece:</p>
+                <ul>
+                    <li>- Diseño de Logos</li>
+                    <li>- Diseño Web</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="ex">EXPERIENCIA</h2>
+                <h3>Desarrollo Web</h3>
+                <p>Desde los 16 años llevo estudiando el Desarrolo Web con HTML + CSS + JS, también desde otros editores como Wix o Google Sites, pero mi especialidad está en HTML + CSS + JS. De hecho ya he creado ya varias páginas desde que he iniciado y he hecho trabajo a amigos, compañeros, familiares etc.</p>
+                <h3>Ciberseguridad</h3>
+                <p>Desde los 15 años he estado estudiando Python, enfocandome únicamente en la Ciberseguridad y el Hacking ético haciendo simulaciones en entornos reales.</p>
+                <h3>Configuración del SO (Sistema Operativo)</h3>
+                <p>Al igual que en el desarrolo web, a los 16 años empezé a analizar y aprender más sobre los "SO" de algunas computadoras y he aprendido sobre CMD y PowerShell para Windows, y sobre Bash para Linux</p>
+            </section>
+            <section>
+                <h2 id="pr">PROYECTOS</h2>
+                <p>Desde adolecente he tenido varios proyectos en mente: Desde el inicio hice mi primera página web que trata de mi empresa de Programación y diseño, luego empezé a ir más allá y empezé a hacer programas con JS (Java Script) dentro de las paginas web que iba creando constantemente, el primer programa que hice fué de Cifrado y Descifrado de Códigos, luego hice páginas ya para que otras personas aprendan a hcer lo mismo que yo estaba haciendo, mi primera página de ese estilo fue "Ciber ataque", luego fuí haciendo más que logre ayudar a las demas personas a aprender a programar.</p>
+            </section>
+            <section>
+                <h2 id="ha">HABILIDADES</h2>
+                <h3>PROGRAMACIÓN</h3>
+                <p>Cómo ya verán es en lo que más me especializo.</p>
+                <ul>
+                    <li>- Ciberseguridad</li>
+                    <li>- Desarrollo Web</li>
+                    <li>- Diseño Web</li>
+                </ul>
+                <h3>MECANICA AUTOMOTRIZ</h3>
+                <p>Me crié basicamente en un taller, desde pequeño he visto como mi padre, tios y abuelo han trabajado con autos y he aprendido bastante gracias a ellos cosas como:</p>
+                <ul>
+                    <li>- Latonería</li>
+                    <li>- Pintura</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="in">CONTACTOS</h2>
+                <article>
+                    <h3><a href="https://te.me/Damaso_Figueredo" target="_blank">Telegram</a></h3>
+                    <h3><a href="tel:+573128137199" target="_blank">WhatsApp</a></h3>
+                    <h3><a href="mailto:damasofigueredo2009@gmail.com" target="_blank">Email</a></h3>
+                    <h3><a href="https://www.instagram.com/damaso_f15/" target="_blank">Instagram</a></h3>
+                    <h3><a href="https://www.facebook.com/profile.php?id=100088386830400&locale=es_LA" target="_blank">FaceBook</a></h3>
+                </article>
+            </section>
+            <section>
+                <h2 id="bio">BIOGRAFÍA</h2>
+                <p>Nací en Valencia-Venezuela pero a los 10 años me fuí a Colombia, ahí empezó mi acercamiento a la tecnología y en donde aprendí a programar.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;Dámaso Figueredo 2025. Todos los derechos reservados.</p>
+            <p>Teléfono: <a href="tel:+573128137199" target="_blank">+57 3128137199</a></p>
+            <p>Email: <a href="mailto:damasofigueredo2009@gmail.com" target="_blank">damasofigueredo2009@gmail.com</a></p>
+            <p>Telegram: <a href="https://te.me/Damaso_Figueredo" target="_blank">@Damaso_Figueredo</a></p>
+        </footer>
+    </body>
+</html>
